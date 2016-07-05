@@ -23,8 +23,8 @@ public class MasterMind {
 				System.out.println( "c: continue; espace : fin") ;
 				clavier = (char) System.in.read() ;
 				if (clavier == ' ' ) fini = true;
-				System.out.println("car=" + clavier );
 			}
+			System.out.println( "Fin du jeu") ;
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

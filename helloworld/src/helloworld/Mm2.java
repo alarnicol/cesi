@@ -62,13 +62,6 @@ public class Mm2 {
 		}
 	}
 	
-	private void RempliListeJoueur_old()
-	{
-		this.listeJoueur[0] = 0;
-		this.listeJoueur[1] = 5;
-		this.listeJoueur[2] = 2;
-		this.listeJoueur[3] = 1;
-	}
 	
 	private int[] compareListes()
 	{
